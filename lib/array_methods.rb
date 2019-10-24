@@ -1,6 +1,6 @@
 def using_include(array, element)
-    famous_cats = ["lil' bub", "grumpy cat", "Maru"]
-famous_cats.include?("Garfield")
+   array = ["wow", "I", "am", "really", "learning", "arrays!"]
+array.include?("Garfield")
   => false
 famous_cats.include?("Maru")
   => true
